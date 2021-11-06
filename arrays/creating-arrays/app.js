@@ -166,3 +166,12 @@ const copiedPersonas = [...personas]; // crates a brand new array
 personas.push({ name: "Jas", age: 10 });
 
 console.log("personas: ", personas, "copiedPersonas: ", copiedPersonas);
+
+// destructuring
+const nameData = ["Ion", "Popa"];
+// const firstName = nameData[0];
+// const lastName = nameData[1];
+
+const [firstName, lastName] = nameData;
+
+console.log("firstName:", firstName, "lastName: ", lastName);
