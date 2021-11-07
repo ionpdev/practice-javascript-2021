@@ -94,3 +94,5 @@ searchBtn.addEventListener("click", searchMovieHandler);
 // Spread operator
 
 // Object.Assign()
+
+// getters and setters
